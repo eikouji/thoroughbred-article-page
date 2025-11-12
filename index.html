@@ -26,7 +26,24 @@
             Proper training and handling are essential to bring out the best in these horses.</p>
     </section>
     <section>
-        <button>Do you like horses?</button>
+        <h1>Do you like horses?</h1>
+
+    <form action="/action_page.php">
+        <input type="checkbox" id="option1" name="option1" value="I like horses">
+        <label for="option1"> I like horses</label><br>
+        <input type="checkbox" id="option2" name="option2" value="I don't like horses">
+        <label for="option2"> I don't like horses</label><br>
+        <input type="checkbox" id="option3" name="option3" value="I like horses but do not own one">
+        <label for="option3"> I like horses but do not own one</label><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    </section>
+    <section>
+        <label for="horse-avatar">Choose a horse avatar:</label>
+        <input type="file"
+                id="horse-avatar"
+                name="horse-avatar"
+                accept="image/png, image/jpeg">
     </section>
 
 
